@@ -51,7 +51,6 @@ except ImportError:
     print "mechanize required but missing"
     sys.exit(1)
     
-
 def getSolutions (path_prefix, path_proxy):
     global br, username, password
 
